@@ -1,0 +1,1 @@
+jupyter nbconvert --to slides  --ServePostProcessor.port=8910 --ServePostProcessor.ip=localhost --SlidesExporter.reveal_theme=league --TagRemovePreprocessor.remove_input_tags={\"remove_input\"} --post serve presentation.ipynb
